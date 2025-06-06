@@ -1,0 +1,47 @@
+.menu .menu-list{
+    position: absolute;
+    padding-left: 30px;
+    top: 0;
+    left: -400px;
+    background-color: #ddd;
+    height: 100vh;
+    width: 250px;
+    z-index:100;
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    transition: ease-in 0.8s;
+}
+
+#btn_fechar {
+    display: none;
+    transition: all 1s;
+}
+
+.menu .menu-list .btn{
+    display: flex;
+    justify-content: end;
+    width: 100%;
+    
+}
+
+.menu .menu-list .btn .fechar_btn{
+      border: none;
+    border-radius: 7px;
+    background-color:#777;
+    width:40px;
+    height:40px;
+    color:#fff;
+
+}
+@media (max-width:600px)
+{
+    .row{
+     display: flex !important;
+     flex-direction: column !important;
+     align-items: center !important;
+     justify-content: around !important;
+    }
+    
+}
+

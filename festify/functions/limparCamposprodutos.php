@@ -1,0 +1,10 @@
+<?php
+session_start();
+unset($_SESSION['codigo_produto']);
+unset($_SESSION['descricao_produto']);
+unset($_SESSION['preco_custo']);
+unset($_SESSION['preco_venda']);
+unset($_SESSION['estoque_inicial']);
+unset($_SESSION['button']);
+header('location:../produtos.php');
+?>
